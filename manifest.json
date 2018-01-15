@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Unichat",
+  "description": "This is the Unichat Popup",
+  "version": "1.6",
+   "icons": {
+    "128": "7POdNS3.png"
+  },
+
+
+  "browser_action": {
+    "default_icon": "7POdNS3.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
